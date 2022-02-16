@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-transparent{
+    background-color: rgba(0,0,0, 0.5);
+    width: 63%;
+    margin: auto;
+    margin-top: 1.5%;
+    padding: 5%;
+    border-radius: 10px;
+    /* border-radius: ?%;*/
+}
+
+#logo-and-text{
+    width: 45%;
+    margin: auto;
+}
+
+.logo{
+    display: block;
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
+}
+
+.logo-text{
+    font-size: 130%;
+    color: rgb(37, 233, 63);
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: rgb(37, 233, 63);
+    text-align: center;
+}
+
+.input{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.loading{
+    height: 20px;
+    /* height: ?%; */
+    border-radius: 3px;
+    /* border-radius: ?%; */
+}
+
+.bar1{
+    background-color:rgb(230, 165, 55);
+    width: 35%;
+}
+
+.bar2{
+    background-color: rgb(14, 190, 37);
+    width:60%;
+}
+
+.bar3{
+    background-color: rgb(191, 65, 65);
+    width: 15%;
+}
+
+
+.scooter{
+    margin-bottom: 0%;
+    font-size: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0%;
+}
+
+.place-and-charge{
+    margin-top: 0;
+    margin-bottom: 0%;
+    font-size: 80%;
+    color: rgba(255, 255, 255, 0.747);
+    font-family: 'Poppins', sans-serif;
+}
+
